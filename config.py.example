@@ -1,0 +1,7 @@
+DB_CONFIG = {
+    'host': 'localhost',
+    'database': 'shoe_store',
+    'user': 'postgres',
+    'password': 'change_me',  # Вымышленный пароль
+    'port': '5432'
+}
