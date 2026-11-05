@@ -4,7 +4,7 @@ from database import User
 import config
 
 def main(page: ft.Page):
-    page.title = "ООО «Обувь» - Магазин обуви"
+    page.title = "ShoeStore - Магазин обуви"
     page.theme_mode = ft.ThemeMode.LIGHT
     page.padding = 0
     page.scroll = ft.ScrollMode.ADAPTIVE

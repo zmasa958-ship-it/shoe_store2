@@ -188,7 +188,7 @@ class Database:
         
         try:
             if len(parts) % 2 != 0:
-                raise ValueError("Неверный формат артикула. Должны чередоваться артикулы и количества.")
+                raise ValueError("Ошибка: неверный формат артикула. Должны чередоваться артикулы и количества.")
             
             for i, part in enumerate(parts):
                 if i % 2 == 0:  # Артикул
