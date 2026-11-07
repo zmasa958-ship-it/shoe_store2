@@ -5,7 +5,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from database import Database
 from modules.dialog_manager import DialogManager
 import config
-
+DISCOUNT_THRESHOLD = 15
 class ProductListPage:
     def __init__(self, page: ft.Page, user):
         self.page = page
@@ -265,7 +265,7 @@ class ProductListPage:
         """Создание карточки товара"""
         
         bg_color = None
-        if product.discount > 15:
+        if product.discount > DISCOUNT_THRESHOLD:
             bg_color = "#2E8B57" 
         
         image_widget = self.create_image_widget(product)
