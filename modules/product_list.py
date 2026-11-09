@@ -357,7 +357,7 @@ class ProductListPage:
             return ft.Row(
                 controls=[
                     ft.Text(
-                        f"Цена: {product.final_price:.2f}₽ ",
+                        f"Цена со скридкой: {product.final_price:.2f}₽ ",
                         size=12,
                         color=ft.Colors.BLACK,
                         text_align=ft.TextAlign.CENTER,
