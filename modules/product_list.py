@@ -357,7 +357,7 @@ class ProductListPage:
             return ft.Row(
                 controls=[
                     ft.Text(
-                        f"Цена: {product.final_price:.2f}₽ ",
+                        f"Итоговая: {product.final_price:.2f}₽ ",
                         size=12,
                         color=ft.Colors.BLACK,
                         text_align=ft.TextAlign.CENTER,
@@ -415,4 +415,3 @@ class ProductListPage:
             "Вы уверены, что хотите выйти?",
             on_confirm=on_confirm
         )       
-
