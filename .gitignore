@@ -12,3 +12,12 @@ venv/
 
 # Локальные секреты
 config.py
+config.ini
+.env
+
+# Системные файлы
+.DS_Store
+storage/
+
+# Резервные копии (добавлено для ПР №13)
+backups/
