@@ -1,0 +1,10 @@
+.git
+.venv
+venv
+__pycache__
+*.pyc
+config.ini
+config.py
+.env
+build
+dist
