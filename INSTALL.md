@@ -148,4 +148,4 @@ docker compose exec db psql -U postgres -d shoe_store -v ON_ERROR_STOP=1 -f /tmp
 docker compose stop
 ```
 
-> **Важно:** не используйте `docker compose down -v` без резервной копии. Флаг `-v` удаляет том `db_data` и все данные в базе.
+> **Важно:** не используйте `docker compose down -v` без резервной копии. Флаг `-v` удаляет том `db_data` и все данные в базе.ааа
